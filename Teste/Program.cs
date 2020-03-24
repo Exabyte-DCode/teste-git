@@ -6,8 +6,12 @@ namespace Teste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git!!");
-            Console.WriteLine("Good Night!");
+            for(int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("Hello Git!!");
+                Console.WriteLine("Good Night!");
+            }
+           
         }
     }
 }
