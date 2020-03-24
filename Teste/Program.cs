@@ -7,7 +7,7 @@ namespace Teste
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Git!!");
-
+            Console.WriteLine("Good Night!");
         }
     }
 }
