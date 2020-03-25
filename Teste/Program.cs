@@ -11,6 +11,9 @@ namespace Teste
                 Console.WriteLine("Hello Git!!");
                 Console.WriteLine("Good Night!");
             }
+
+            DateTime actualTime = DateTime.Now.ToUniversalTime();
+            Console.WriteLine("UTC time: " + actualTime);
            
         }
     }
